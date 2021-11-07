@@ -1,0 +1,17 @@
+.dishesForm {
+  display: grid;
+  grid-template-columns: max-content;
+}
+.dishes {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.dishesForm > label, input, select {
+  margin-bottom: 10px;
+  height: 20px;
+  border-radius: 10px;
+}
+.dishesForm > input {
+  padding: 5px;
+}
