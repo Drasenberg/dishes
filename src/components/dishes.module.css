@@ -15,3 +15,37 @@
 .dishesForm > input {
   padding: 5px;
 }
+.dishesForm > button {
+  font-size: 25px;
+  height: 50px;
+  width: 200px;
+  border-radius: 100vw;
+  background-color: rgb(15, 188, 246);
+  box-shadow: inset 0 0 4px 0px ;
+}
+.dishesForm > button:hover{
+  opacity: 0.8;
+}
+.dishesForm > button:disabled{
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+.notValidInput {
+  border: 1px dotted red;
+}
+.wrong{
+  color: red;
+  border: 2px solid red;
+  padding: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.good{
+  color: green;
+  border: 2px solid green;
+  padding: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
